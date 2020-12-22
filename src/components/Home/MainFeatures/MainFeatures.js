@@ -5,8 +5,9 @@ import img2 from '../../../img/Screenshot_2.png';
 import img3 from '../../../img/Screenshot_3.png';
 import img4 from '../../../img/Screenshot_4.png';
 import img5 from '../../../img/Screenshot_5.png';
-import Slider from '../Slider/Slider';
+
 import CustomerSupport from '../CustomerSupport/CustomerSupport';
+import HeaderSlider from '../Slider/HeaderSlider';
 
 const MainFeatures = () => {
     return (
@@ -63,7 +64,7 @@ const MainFeatures = () => {
                         <div className="row">
                             
                             <div className="col-md-12">
-                            <Slider></Slider>
+                          <HeaderSlider></HeaderSlider>
                            
                         </div>
                         <div className="row">
@@ -74,13 +75,13 @@ const MainFeatures = () => {
                     
                     <div className="col-md-2 right-bar">
                         <div className="col-md-12 image-box">
-                            <img src={img4} alt="" />
+                            <img src={img3} alt="" />
                         </div>
                         <div className="col-md-12 image-box">
-                            <img src={img4} alt="" />
+                            <img src={img2} alt="" />
                         </div>
                         <div className="col-md-12 image-box">
-                            <img src={img4} alt="" />
+                            <img src={img3} alt="" />
                         </div>
                         
                     </div>

@@ -204,3 +204,17 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.slick-dots{
+
+    position:absolute;
+    top: 90%;
+}
+
+.slick-dots li button::before{
+    color: #20A65B !important;
+    font-size: 13px !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #013D5A !important;
+}
